@@ -15,7 +15,7 @@ function Nav() {
               alt='wavy lines'
             />
           </div>
-          <ul className='cursor-pointer flex items-center space-x-6'>
+          <ul className='cursor-pointer flex items-center ml-2 space-x-12'>
             <li>Home</li>
             <li>About</li>
             <li>Projects</li>
@@ -27,9 +27,9 @@ function Nav() {
             <img src={logo} alt='logo' />
           </a>
         </div>
-        <div className='hidden md:inline mr-4'>
+        <div className='hidden md:inline items-center mr-4 mt-4'>
           <a
-            className='contact-btn p-2 items-center rounded-lg cursor-pointer'
+            className='contact-btn py-2 px-4 items-center rounded-lg cursor-pointer'
             href='www.google.com'
           >
             Contact
