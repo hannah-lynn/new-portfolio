@@ -7,11 +7,11 @@
     height: 390px;
     border: 4px solid #01422A;
     z-index: 10;
+    font-weight: 900;
 }
 
-
 .main-text img {
-    height: 180px;
+    height: 14rem;
 }
 
 .half {
@@ -25,4 +25,44 @@
     position: absolute;
     right: 35px;
     top: 105px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main {
+        height: 320px;
+    }
+
+    .main-text img {
+        height: 10rem;
+    }
+
+    .main-text {
+        margin: 0 0 0 20;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .main {
+        height: 260px;
+    }
+
+    .main-text img {
+        height: 6rem;
+    }
+
+    .main-text h2 {
+        font-size: 20px;
+    }
+
+    .half {
+        left: 14px;
+        top: 390px;
+        transform: rotate(0deg)
+    }
+
+    .red-dot {
+        right: 20px;
+        width: 120px;
+    }
 }

@@ -17,8 +17,8 @@ function Hero() {
         />
       </div>
       <div className='m-auto mt-20 main flex items-center justify-around rounded-lg'>
-        <div className='main-text flex w-full justify-center space-x-24'>
-          <h2 className='text-3xl flex flex-col justify-center items-start'>
+        <div className='main-text flex w-full justify-center space-x-6 md:space-x-24'>
+          <h2 className='text-2xl md:text-3xl flex flex-col justify-center md:items-start'>
             Hello,
             <span>I'm a Developer</span>
           </h2>
