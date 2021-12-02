@@ -20,3 +20,9 @@
     top: 456px;
     transform: rotate(45deg)
 }
+
+.red-dot {
+    position: absolute;
+    right: 35px;
+    top: 105px;
+}
