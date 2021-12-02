@@ -8,26 +8,22 @@ function Nav() {
       <div className='flex justify-between mt-4'>
         <div className='nav-links flex ml-4'>
           <div className='ml-2 p-2'>
-            <h1 className='name md:hidden'>Hannah Lynn</h1>
-            <img
-              className='wavy hidden md:inline'
-              src={wavy}
-              alt='wavy lines'
-            />
+            {/* <h1 className='name md:hidden'>Hannah Lynn</h1> */}
+            <img className='wavy' src={wavy} alt='wavy lines' />
           </div>
-          <ul className='cursor-pointer flex items-center ml-2 space-x-12'>
+          <ul className='cursor-pointer hidden md:inline flex items-center ml-2 space-x-12'>
             <li>Home</li>
             <li>About</li>
             <li>Projects</li>
           </ul>
         </div>
 
-        <div className='logo md:hidden'>
+        {/* <div className='logo md:hidden'>
           <a href='www.google.com'>
             <img src={logo} alt='logo' />
           </a>
-        </div>
-        <div className='hidden md:inline items-center mr-4 mt-4'>
+        </div> */}
+        <div className='items-center mr-4 mt-4'>
           <a
             className='contact-btn py-2 px-4 items-center rounded-lg cursor-pointer'
             href='www.google.com'
