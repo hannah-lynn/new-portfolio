@@ -11,7 +11,7 @@ function Nav() {
             {/* <h1 className='name md:hidden'>Hannah Lynn</h1> */}
             <img className='wavy' src={wavy} alt='wavy lines' />
           </div>
-          <ul className='cursor-pointer hidden md:inline flex items-center ml-2 space-x-12'>
+          <ul className='cursor-pointer hidden md:flex items-center ml-2 space-x-12'>
             <li>Home</li>
             <li>About</li>
             <li>Projects</li>
