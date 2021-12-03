@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.c355a465.chunk.css",
-    "main.js": "/new-portfolio/static/js/main.af8003c2.chunk.js",
-    "main.js.map": "/new-portfolio/static/js/main.af8003c2.chunk.js.map",
-    "runtime-main.js": "/new-portfolio/static/js/runtime-main.281592df.js",
-    "runtime-main.js.map": "/new-portfolio/static/js/runtime-main.281592df.js.map",
-    "static/js/2.d7aa63f6.chunk.js": "/new-portfolio/static/js/2.d7aa63f6.chunk.js",
-    "static/js/2.d7aa63f6.chunk.js.map": "/new-portfolio/static/js/2.d7aa63f6.chunk.js.map",
-    "static/js/3.434166cc.chunk.js": "/new-portfolio/static/js/3.434166cc.chunk.js",
-    "static/js/3.434166cc.chunk.js.map": "/new-portfolio/static/js/3.434166cc.chunk.js.map",
-    "index.html": "/new-portfolio/index.html",
-    "static/css/main.c355a465.chunk.css.map": "/new-portfolio/static/css/main.c355a465.chunk.css.map",
-    "static/js/2.d7aa63f6.chunk.js.LICENSE.txt": "/new-portfolio/static/js/2.d7aa63f6.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/new-portfolio/static/media/Poppins-Regular.8081832f.ttf",
-    "static/media/nz.27ca1dde.png": "/new-portfolio/static/media/nz.27ca1dde.png"
+    "main.css": "/new-portfoliogit%20init/static/css/main.fce5a323.chunk.css",
+    "main.js": "/new-portfoliogit%20init/static/js/main.af8003c2.chunk.js",
+    "main.js.map": "/new-portfoliogit%20init/static/js/main.af8003c2.chunk.js.map",
+    "runtime-main.js": "/new-portfoliogit%20init/static/js/runtime-main.c1835b92.js",
+    "runtime-main.js.map": "/new-portfoliogit%20init/static/js/runtime-main.c1835b92.js.map",
+    "static/js/2.d7aa63f6.chunk.js": "/new-portfoliogit%20init/static/js/2.d7aa63f6.chunk.js",
+    "static/js/2.d7aa63f6.chunk.js.map": "/new-portfoliogit%20init/static/js/2.d7aa63f6.chunk.js.map",
+    "static/js/3.434166cc.chunk.js": "/new-portfoliogit%20init/static/js/3.434166cc.chunk.js",
+    "static/js/3.434166cc.chunk.js.map": "/new-portfoliogit%20init/static/js/3.434166cc.chunk.js.map",
+    "index.html": "/new-portfoliogit%20init/index.html",
+    "static/css/main.fce5a323.chunk.css.map": "/new-portfoliogit%20init/static/css/main.fce5a323.chunk.css.map",
+    "static/js/2.d7aa63f6.chunk.js.LICENSE.txt": "/new-portfoliogit%20init/static/js/2.d7aa63f6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/new-portfoliogit%20init/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/nz.27ca1dde.png": "/new-portfoliogit%20init/static/media/nz.27ca1dde.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.281592df.js",
+    "static/js/runtime-main.c1835b92.js",
     "static/js/2.d7aa63f6.chunk.js",
-    "static/css/main.c355a465.chunk.css",
+    "static/css/main.fce5a323.chunk.css",
     "static/js/main.af8003c2.chunk.js"
   ]
 }
