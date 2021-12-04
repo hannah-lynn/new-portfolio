@@ -1,12 +1,71 @@
+import React, { useEffect, useState } from 'react';
 import './hero.css';
-import logo from '../../assets/images/logo.png';
-import wavy from '../../assets/images/wavy.png';
-import nz from '../../assets/images/nz.png';
+import quokka from '../../assets/images/quokka.png';
 import half from '../../assets/images/half-circles.png';
 import halfLg from '../../assets/images/lg-half-circ.png';
-import lines from '../../assets/images/lines.png';
 
-function Hero() {
+const CONSTANTS = {
+  DELETING_SPEED: 70,
+  TYPING_SPEED: 220,
+};
+
+function Hero({ messages }) {
+  const [state, setState] = useState({
+    text: '',
+    message: '',
+    isDeleting: false,
+    loopNum: 0,
+    typingSpeed: CONSTANTS.TYPING_SPEED,
+  });
+
+  useEffect(() => {
+    let timer = '';
+    const handleType = () => {
+      setState((cs) => ({
+        ...cs, // cs means currentState
+        text: getCurrentText(cs),
+        typingSpeed: getTypingSpeed(cs),
+      }));
+      timer = setTimeout(handleType, state.typingSpeed);
+    };
+    handleType();
+    return () => clearTimeout(timer);
+  }, [state.isDeleting]);
+
+  useEffect(() => {
+    if (!state.isDeleting && state.text === state.message) {
+      setTimeout(() => {
+        setState((cs) => ({
+          ...cs,
+          isDeleting: true,
+        }));
+      }, 500);
+    } else if (state.isDeleting && state.text === '') {
+      setState((cs) => ({
+        ...cs, // cs means currentState
+        isDeleting: false,
+        loopNum: cs.loopNum + 1,
+        message: getMessage(cs, messages),
+      }));
+    }
+  }, [state.text, state.message, state.isDeleting, messages]);
+
+  function getCurrentText(currentState) {
+    return currentState.isDeleting
+      ? currentState.message.substring(0, currentState.text.length - 1)
+      : currentState.message.substring(0, currentState.text.length + 1);
+  }
+
+  function getMessage(currentState, data) {
+    return data[Number(currentState.loopNum) % Number(data.length)];
+  }
+
+  function getTypingSpeed(currentState) {
+    return currentState.isDeleting
+      ? CONSTANTS.TYPING_SPEED
+      : CONSTANTS.DELETING_SPEED;
+  }
+
   return (
     <div className='hero'>
       <div className='half-container'>
@@ -20,9 +79,12 @@ function Hero() {
         <div className='main-text flex w-full justify-center space-x-6 md:space-x-24'>
           <h2 className='text-2xl md:text-3xl flex flex-col justify-center md:items-start'>
             Hello,
-            <span>I'm a Developer</span>
+            <div className='message'>
+              <span>{state.text}</span>
+              <span id='cursor' />
+            </div>
           </h2>
-          <img src={nz} alt='Picture' />
+          <img src={quokka} alt='Picture' className='quokka' />
         </div>
       </div>
       <div className='half-container'>

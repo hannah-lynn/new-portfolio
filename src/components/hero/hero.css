@@ -5,13 +5,18 @@
     background-color: #F4CEE2;
     width: 75%;
     height: 390px;
-    border: 4px solid #01422A;
+    border: 3px solid #01422A;
     z-index: 10;
     font-weight: 900;
 }
 
 .main-text img {
     height: 14rem;
+}
+
+.quokka {
+    border: 3px solid #01422A;
+    border-radius: 50%;
 }
 
 .half {
@@ -27,6 +32,10 @@
     top: 105px;
 }
 
+.message {
+    min-width: 223px;
+}
+
 
 @media only screen and (max-width: 768px) {
     .main {
@@ -39,6 +48,10 @@
 
     .main-text {
         margin: 0 0 0 20;
+    }
+
+    .message {
+        min-width: 180px;
     }
 }
 
@@ -64,5 +77,20 @@
     .red-dot {
         right: 20px;
         width: 120px;
+    }
+
+    .message {
+        min-width: 150px;
+    }
+}
+
+#cursor {
+    border-left: .1em solid #01422A;
+    animation: blink .7s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
     }
 }

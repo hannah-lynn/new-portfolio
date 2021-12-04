@@ -1,0 +1,17 @@
+.card {
+    background-color: #F4CEE2;
+}
+
+/* .card-img {
+    height: 152px;
+} */
+
+.projects-btn {
+    width: 120px;
+    background-color: #FBBD13;
+    font-weight: bold;
+}
+
+.projects-btn:hover {
+    background-color: #fba213;
+}
