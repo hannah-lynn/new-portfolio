@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/about/about';
+import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Hero from './components/hero/hero';
 import Nav from './components/nav/nav';
@@ -14,6 +15,7 @@ function App() {
       <Hero messages={msgs} />
       <About />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );
