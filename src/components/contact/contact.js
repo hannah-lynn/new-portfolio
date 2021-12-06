@@ -7,7 +7,7 @@ function Contact() {
       <div className='form-card flex justify-center'>
         <form
           action='submit'
-          className='flex flex-col text-left w-full md:w-1/3 mx-4'
+          className='flex flex-col text-left w-full md:w-1/2 lg:w-1/3 mx-4'
         >
           <label htmlFor='name' className='name ml-1 font-bold'>
             Name
