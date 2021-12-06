@@ -5,8 +5,8 @@ import half from '../../assets/images/half-circles.png';
 import halfLg from '../../assets/images/lg-half-circ.png';
 
 const CONSTANTS = {
-  DELETING_SPEED: 70,
-  TYPING_SPEED: 220,
+  DELETING_SPEED: 30,
+  TYPING_SPEED: 150,
 };
 
 function Hero({ messages }) {
@@ -76,7 +76,7 @@ function Hero({ messages }) {
         />
       </div>
       <div className='m-auto mt-20 main flex items-center justify-around rounded-lg'>
-        <div className='main-text flex w-full justify-center space-x-6 md:space-x-24'>
+        <div className='main-text flex w-full justify-center space-x-2 sm:space-x-6 md:space-x-24'>
           <h2 className='text-2xl md:text-3xl flex flex-col justify-center md:items-start'>
             Hello,
             <div className='message'>

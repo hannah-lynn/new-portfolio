@@ -14,6 +14,7 @@ function Projects() {
             alt='screenshot of essay site'
             className='card-img rounded-lg m-4'
           />
+
           <h2 className='title font-bold my-3'>Essay Site</h2>
           <p className='mx-2'>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
