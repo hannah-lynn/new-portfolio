@@ -5,7 +5,7 @@ import calculator from '../../assets/images/calculator.png';
 
 function Projects() {
   return (
-    <div className='flex flex-col my-10 m-auto w-4/5'>
+    <div className='flex flex-col my-10 m-auto w-4/5' id='projects'>
       <h1 className='font-bold text-xl my-4'>Projects</h1>
       <div className='card-container justify-center md:flex mt-10 w-full md:space-x-8'>
         <div className='card md:w-1/2 lg:w-1/3 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6'>

@@ -23,7 +23,7 @@
     position: absolute;
     left: 20px;
     top: 456px;
-    transform: rotate(45deg)
+    transform: rotate(45deg);
 }
 
 .red-dot {
@@ -31,6 +31,7 @@
     right: 35px;
     top: 105px;
 }
+
 
 .message {
     min-width: 223px;

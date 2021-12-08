@@ -2,7 +2,7 @@ import './about.css';
 
 function About() {
   return (
-    <div className='flex flex-col mt-24 m-auto w-4/5'>
+    <div className='flex flex-col mt-24 m-auto w-4/5' id='about'>
       <h1 className='font-bold text-xl mb-4'>About Me</h1>
       <p className=''>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae

@@ -1,6 +1,7 @@
 import './nav.css';
 import logo from '../../assets/images/logo.png';
 import wavy from '../../assets/images/wavy.png';
+import { HashLink } from 'react-router-hash-link';
 
 function Nav() {
   return (
@@ -12,9 +13,24 @@ function Nav() {
             <img className='wavy' src={wavy} alt='wavy lines' />
           </div>
           <ul className='cursor-pointer hidden md:flex items-center ml-2 space-x-12'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
+            <HashLink
+              className='p-4 hover:text-green-500 flex-row'
+              to='/new-portfolio/#home'
+            >
+              <li>Home</li>
+            </HashLink>
+            <HashLink
+              className='p-4 hover:text-green-500 flex-row'
+              to='/new-portfolio/#about'
+            >
+              <li>About</li>
+            </HashLink>
+            <HashLink
+              className='p-4 hover:text-green-500 flex-row'
+              to='/new-portfolio/#projects'
+            >
+              <li>Projects</li>
+            </HashLink>
           </ul>
         </div>
 
@@ -26,7 +42,7 @@ function Nav() {
         <div className='items-center mr-4 mt-4'>
           <a
             className='contact-btn py-2 px-4 items-center rounded-lg cursor-pointer'
-            href='www.google.com'
+            href='/new-portfolio/#contact'
           >
             Contact
           </a>

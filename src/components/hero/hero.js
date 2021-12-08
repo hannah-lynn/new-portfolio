@@ -67,7 +67,7 @@ function Hero({ messages }) {
   }
 
   return (
-    <div className='hero'>
+    <div className='hero' id='home'>
       <div className='half-container'>
         <img
           src={halfLg}
