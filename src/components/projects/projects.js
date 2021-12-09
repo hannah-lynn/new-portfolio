@@ -23,7 +23,7 @@ function Projects() {
           </p>
           <a
             className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
-            href='https://github.com/hannahl87/portfolio'
+            href='https://github.com/hannahl87/essay-site'
             target='_blank'
             rel='noopener noreferrer'
           >

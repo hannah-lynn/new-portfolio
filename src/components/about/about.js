@@ -5,16 +5,11 @@ function About() {
     <div className='flex flex-col mt-24 m-auto w-4/5' id='about'>
       <h1 className='font-bold text-xl mb-4'>About Me</h1>
       <p className=''>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-        totam consequatur dolore nobis doloremque, quas provident ipsum, earum
-        laudantium, blanditiis facere unde. Sunt magnam eius velit atque iste
-        tempore eligendi. Lorem ipsum dolor sit amet consectetur, adipisicing
-        elit. Minima itaque id debitis, sequi nostrum rerum dolorem. Quia
-        possimus quidem corporis minus vero. Est sequi fugit accusamus corrupti
-        eius recusandae voluptate. Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Consequuntur dignissimos iste esse voluptas omnis quia
-        et in hic! Quia nulla nihil ad reiciendis sint fugiat beatae vitae
-        quaerat earum tenetur.
+        After teaching myself some of the basics of HTML5, CSS3 and JavaScript
+        over a few months I started Web Development role in October 2020. Here I
+        work frontend and backend, using mySQL, Angular, Typescript, and the
+        backend is an in house framework. This portfolio site is built using
+        React with Tailwind CSS.
       </p>
     </div>
   );
