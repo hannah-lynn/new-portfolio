@@ -21,14 +21,20 @@ function Projects() {
             reprehenderit voluptatum distinctio laudantium natus ut alias
             eveniet magni rem nulla deserunt.
           </p>
-          <button className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'>
+          <a
+            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
+            href='https://github.com/hannahl87/portfolio'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {' '}
             More
-          </button>
+          </a>
         </div>
         <div className='card md:w-1/2 lg:w-1/3 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6'>
           <img
             src={calculator}
-            alt='screenshot of essay site'
+            alt='screenshot of calculator'
             className='card-img rounded-lg m-4'
           />
           <h2 className='title font-bold my-3'>Calculator</h2>
@@ -37,14 +43,20 @@ function Projects() {
             reprehenderit voluptatum distinctio laudantium natus ut alias
             eveniet magni rem nulla deserunt.
           </p>
-          <button className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'>
+          <a
+            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
+            href='https://github.com/hannahl87/calculator'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {' '}
             More
-          </button>
+          </a>
         </div>
         <div className='card md:w-1/2 lg:w-1/3 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6'>
           <img
             src={plant}
-            alt='screenshot of essay site'
+            alt='screenshot of plant site'
             className='card-img rounded-lg m-4'
           />
           <h2 className='title font-bold my-3'>Plant Shop</h2>
@@ -53,9 +65,15 @@ function Projects() {
             reprehenderit voluptatum distinctio laudantium natus ut alias
             eveniet magni rem nulla deserunt.
           </p>
-          <button className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'>
+          <a
+            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
+            href='https://github.com/hannahl87/theplantshop'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {' '}
             More
-          </button>
+          </a>
         </div>
       </div>
     </div>
