@@ -30,7 +30,7 @@ function Hero({ messages }) {
     };
     handleType();
     return () => clearTimeout(timer);
-  }, [state.isDeleting]);
+  }, [state.isDeleting, state.typingSpeed]);
 
   useEffect(() => {
     if (!state.isDeleting && state.text === state.message) {
@@ -95,7 +95,7 @@ function Hero({ messages }) {
             </div>
           </div>
 
-          <img src={quokka} alt='Picture' className='quokka' />
+          <img src={quokka} alt='A quokka and I' className='quokka' />
         </div>
       </div>
       <div className='half-container'>

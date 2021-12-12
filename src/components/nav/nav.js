@@ -1,5 +1,4 @@
 import './nav.css';
-import logo from '../../assets/images/logo.png';
 import wavy from '../../assets/images/wavy.png';
 import { HashLink } from 'react-router-hash-link';
 
@@ -33,12 +32,6 @@ function Nav() {
             </HashLink>
           </ul>
         </div>
-
-        {/* <div className='logo md:hidden'>
-          <a href='www.google.com'>
-            <img src={logo} alt='logo' />
-          </a>
-        </div> */}
         <div className='items-center mr-4 mt-4'>
           <a
             className='contact-btn py-2 px-4 items-center rounded-lg cursor-pointer'
