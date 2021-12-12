@@ -77,13 +77,24 @@ function Hero({ messages }) {
       </div>
       <div className='m-auto mt-20 main flex items-center justify-around rounded-lg'>
         <div className='main-text flex w-full justify-center space-x-2 sm:space-x-6 md:space-x-24'>
-          <h2 className='text-2xl md:text-3xl flex flex-col justify-center md:items-start'>
-            Hello,
-            <div className='message'>
-              <span>{state.text}</span>
-              <span id='cursor' />
+          <div className='cta-info flex flex-col justify-center '>
+            <h2 className='text-2xl md:text-3xl flex flex-col md:items-start'>
+              Hello,
+              <div className='message'>
+                <span>{state.text}</span>
+                <span id='cursor' />
+              </div>
+            </h2>
+            <div className='items-center mr-4 mt-6'>
+              <a
+                className='contact-btn py-2 px-4 items-center rounded-lg cursor-pointer'
+                href='/new-portfolio/#contact'
+              >
+                Contact
+              </a>
             </div>
-          </h2>
+          </div>
+
           <img src={quokka} alt='Picture' className='quokka' />
         </div>
       </div>
