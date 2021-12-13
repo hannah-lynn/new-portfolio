@@ -21,11 +21,20 @@ body {
   font-weight: 900;
 }
 
+.card, .main{
+  background-color: var(--color-secondary);
+}
+
+.form-card input {
+  background-color: var(--input-color);
+}
+
 .theme-light {
   --color-primary: #FBF7EA;
   --color-secondary: #F4CEE2;
   --color-accent: #01422A;
   --font-color: #01422A;
+  --input-color: #ffffff;
 }
 
 .theme-dark {
@@ -33,8 +42,5 @@ body {
   --color-secondary: #464646;
   --color-accent: #01422A;
   --font-color: #FBF7EA;
-}
-
-.card, .main{
-  background-color: var(--color-primary);
+  --input-color: #464646;
 }

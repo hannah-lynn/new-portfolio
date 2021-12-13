@@ -1,5 +1,7 @@
 .submit-btn {
     background-color: #FBBD13;
     font-size: 18px;
+    font-weight: bold;
+    color: #01422A;
     width: 220px;
 }

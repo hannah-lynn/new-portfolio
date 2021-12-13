@@ -6,7 +6,7 @@ import halfLg from '../../assets/images/lg-half-circ.png';
 
 const CONSTANTS = {
   DELETING_SPEED: 30,
-  TYPING_SPEED: 150,
+  TYPING_SPEED: 130,
 };
 
 function Hero({ messages }) {
@@ -30,7 +30,7 @@ function Hero({ messages }) {
     };
     handleType();
     return () => clearTimeout(timer);
-  }, [state.isDeleting]);
+  }, [state.isDeleting, state.typingSpeed]);
 
   useEffect(() => {
     if (!state.isDeleting && state.text === state.message) {
