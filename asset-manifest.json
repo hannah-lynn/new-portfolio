@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.3ecb4023.chunk.css",
-    "main.js": "/new-portfolio/static/js/main.8e9e90bd.chunk.js",
-    "main.js.map": "/new-portfolio/static/js/main.8e9e90bd.chunk.js.map",
-    "runtime-main.js": "/new-portfolio/static/js/runtime-main.45be683a.js",
-    "runtime-main.js.map": "/new-portfolio/static/js/runtime-main.45be683a.js.map",
-    "static/js/2.fe90c4ad.chunk.js": "/new-portfolio/static/js/2.fe90c4ad.chunk.js",
-    "static/js/2.fe90c4ad.chunk.js.map": "/new-portfolio/static/js/2.fe90c4ad.chunk.js.map",
-    "static/js/3.8d5d0505.chunk.js": "/new-portfolio/static/js/3.8d5d0505.chunk.js",
-    "static/js/3.8d5d0505.chunk.js.map": "/new-portfolio/static/js/3.8d5d0505.chunk.js.map",
+    "main.css": "/new-portfolio/static/css/main.95c9ad83.chunk.css",
+    "main.js": "/new-portfolio/static/js/main.6be51b5a.chunk.js",
+    "main.js.map": "/new-portfolio/static/js/main.6be51b5a.chunk.js.map",
+    "runtime-main.js": "/new-portfolio/static/js/runtime-main.88cad269.js",
+    "runtime-main.js.map": "/new-portfolio/static/js/runtime-main.88cad269.js.map",
+    "static/js/2.28caa2e4.chunk.js": "/new-portfolio/static/js/2.28caa2e4.chunk.js",
+    "static/js/2.28caa2e4.chunk.js.map": "/new-portfolio/static/js/2.28caa2e4.chunk.js.map",
+    "static/js/3.fa869759.chunk.js": "/new-portfolio/static/js/3.fa869759.chunk.js",
+    "static/js/3.fa869759.chunk.js.map": "/new-portfolio/static/js/3.fa869759.chunk.js.map",
     "index.html": "/new-portfolio/index.html",
-    "static/css/main.3ecb4023.chunk.css.map": "/new-portfolio/static/css/main.3ecb4023.chunk.css.map",
-    "static/js/2.fe90c4ad.chunk.js.LICENSE.txt": "/new-portfolio/static/js/2.fe90c4ad.chunk.js.LICENSE.txt",
+    "static/css/main.95c9ad83.chunk.css.map": "/new-portfolio/static/css/main.95c9ad83.chunk.css.map",
+    "static/js/2.28caa2e4.chunk.js.LICENSE.txt": "/new-portfolio/static/js/2.28caa2e4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/new-portfolio/static/media/Poppins-Regular.8081832f.ttf",
     "static/media/calculator.da8d62b6.png": "/new-portfolio/static/media/calculator.da8d62b6.png",
     "static/media/countries.27c44286.png": "/new-portfolio/static/media/countries.27c44286.png",
@@ -22,9 +22,9 @@
     "static/media/tictactoe.23483865.png": "/new-portfolio/static/media/tictactoe.23483865.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.45be683a.js",
-    "static/js/2.fe90c4ad.chunk.js",
-    "static/css/main.3ecb4023.chunk.css",
-    "static/js/main.8e9e90bd.chunk.js"
+    "static/js/runtime-main.88cad269.js",
+    "static/js/2.28caa2e4.chunk.js",
+    "static/css/main.95c9ad83.chunk.css",
+    "static/js/main.6be51b5a.chunk.js"
   ]
 }
