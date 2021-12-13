@@ -1,15 +1,5 @@
 
 
-.main {
-    position: relative;
-    background-color: #F4CEE2;
-    width: 75%;
-    height: 390px;
-    border: 3px solid #01422A;
-    z-index: 10;
-    font-weight: 900;
-}
-
 .main-text img {
     height: 14rem;
 }
@@ -18,6 +8,7 @@
     background-color: #FBBD13;
     font-size: 18px;
     width: 140px;
+    color: #01422A;
 }
 
 .quokka {

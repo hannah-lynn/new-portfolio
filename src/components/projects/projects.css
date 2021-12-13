@@ -1,11 +1,9 @@
-.card {
-    background-color: #F4CEE2;
-}
 
 .projects-btn {
     width: 120px;
     background-color: #FBBD13;
     font-weight: bold;
+    color: #01422A;
 }
 
 .projects-btn:hover {

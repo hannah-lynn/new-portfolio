@@ -1,0 +1,13 @@
+.dot {
+    background-color: #FBF7EA;
+}
+
+.toggle-area {
+    background-color: #FBBD13;
+}
+
+
+input:checked~.dot {
+    transform: translateX(100%);
+    background-color: #01422A;
+}

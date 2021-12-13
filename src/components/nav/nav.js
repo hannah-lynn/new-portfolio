@@ -1,6 +1,8 @@
 import './nav.css';
+import React from 'react';
 import wavy from '../../assets/images/wavy.png';
 import { HashLink } from 'react-router-hash-link';
+import DarkMode from '../darkmode/darkmode';
 
 function Nav() {
   return (
@@ -8,7 +10,6 @@ function Nav() {
       <div className='flex justify-between mt-4'>
         <div className='nav-links flex ml-4'>
           <div className='ml-2 p-2'>
-            {/* <h1 className='name md:hidden'>Hannah Lynn</h1> */}
             <img className='wavy' src={wavy} alt='wavy lines' />
           </div>
           <ul className='cursor-pointer hidden md:flex items-center ml-2 space-x-12'>
@@ -33,12 +34,13 @@ function Nav() {
           </ul>
         </div>
         <div className='items-center mr-4 mt-4'>
-          <a
+          {/* <a
             className='contact-btn py-2 px-4 items-center rounded-lg cursor-pointer'
             href='/new-portfolio/#contact'
           >
             Contact
-          </a>
+          </a> */}
+          <DarkMode />
         </div>
       </div>
     </nav>

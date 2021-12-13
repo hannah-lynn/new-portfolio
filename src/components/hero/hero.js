@@ -30,7 +30,7 @@ function Hero({ messages }) {
     };
     handleType();
     return () => clearTimeout(timer);
-  }, [state.isDeleting, state.typingSpeed]);
+  }, [state.isDeleting]);
 
   useEffect(() => {
     if (!state.isDeleting && state.text === state.message) {
@@ -75,7 +75,10 @@ function Hero({ messages }) {
           className='red-dot'
         />
       </div>
-      <div className='m-auto mt-20 main flex items-center justify-around rounded-lg'>
+      <div
+        className='change m-auto mt-20 main flex items-center justify-around rounded-lg'
+        id='main'
+      >
         <div className='main-text flex w-full justify-center space-x-2 sm:space-x-6 md:space-x-24'>
           <div className='cta-info flex flex-col justify-center '>
             <h2 className='text-2xl md:text-3xl flex flex-col md:items-start'>
