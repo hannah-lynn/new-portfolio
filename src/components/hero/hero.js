@@ -6,7 +6,7 @@ import halfLg from '../../assets/images/lg-half-circ.png';
 
 const CONSTANTS = {
   DELETING_SPEED: 30,
-  TYPING_SPEED: 130,
+  TYPING_SPEED: 170,
 };
 
 function Hero({ messages }) {
@@ -62,8 +62,8 @@ function Hero({ messages }) {
 
   function getTypingSpeed(currentState) {
     return currentState.isDeleting
-      ? CONSTANTS.TYPING_SPEED
-      : CONSTANTS.DELETING_SPEED;
+      ? CONSTANTS.DELETING_SPEED
+      : CONSTANTS.TYPING_SPEED;
   }
 
   return (
