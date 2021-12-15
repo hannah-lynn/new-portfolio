@@ -26,10 +26,13 @@ function Contact() {
           <label htmlFor='message' className='message-label ml-1 font-bold'>
             Message
           </label>
-          <input
-            type='text'
-            className='message-input  my-2 rounded-xl p-2 focus:outline-none'
-          />
+          <textarea
+            name='message-area'
+            id='message-area'
+            cols='30'
+            rows='5'
+            className=' my-2 rounded-xl p-2 focus:outline-none'
+          ></textarea>
           <div className='btn-container flex justify-center'>
             <button className='submit-btn mt-2 py-2 px-4 items-center rounded-lg cursor-pointer'>
               Submit
