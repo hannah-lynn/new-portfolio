@@ -25,7 +25,7 @@ body {
   background-color: var(--color-secondary);
 }
 
-.form-card input {
+.form-card input, textarea {
   background-color: var(--input-color);
 }
 
