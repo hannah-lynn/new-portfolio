@@ -1,13 +1,15 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import React, { Fragment } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { keepTheme } from './utils/themes';
 import { useEffect } from 'react';
-import './App.css';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Hero from './components/hero/hero';
 import Nav from './components/nav/nav';
 import Projects from './components/projects/projects';
-import { keepTheme } from './utils/themes';
+import ChatBot from './components/pages/chat-bot/chat-bot';
+import './App.css';
 
 let msgs = ["I'm Hannah", "I'm a Developer"];
 
@@ -20,10 +22,21 @@ function App() {
     <Router>
       <div className='App'>
         <Nav />
-        <Hero messages={msgs} />
-        <About />
-        <Projects />
-        <Contact />
+        <Switch>
+          <Route
+            exact
+            path='/new-portfolio'
+            render={() => (
+              <Fragment>
+                <Hero messages={msgs} />
+                <About />
+                <Projects />
+                <Contact />
+              </Fragment>
+            )}
+          />
+          <Route exact path='/chat-bot' component={ChatBot} />
+        </Switch>
         <Footer />
       </div>
     </Router>

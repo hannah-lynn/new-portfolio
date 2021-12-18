@@ -1,3 +1,4 @@
+import { HashLink as Link } from 'react-router-hash-link';
 import './projects.css';
 import essay from '../../assets/images/essay-ss.png';
 import plant from '../../assets/images/plant-shop.png';
@@ -5,12 +6,31 @@ import calculator from '../../assets/images/calculator.png';
 import countries from '../../assets/images/countries.png';
 import rps from '../../assets/images/rps.png';
 import tictactoe from '../../assets/images/tictactoe.png';
+import chatbot from '../../assets/images/chat-bot.png';
 
 function Projects() {
   return (
     <div className='flex flex-col my-10 m-auto w-4/5' id='projects'>
       <h1 className='font-bold text-xl my-4'>Projects</h1>
       <div className='card-container justify-center md:flex flex-wrap mt-10 w-full'>
+        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
+          <img
+            src={chatbot}
+            alt='screenshot of chat bot'
+            className='card-img rounded-lg m-4'
+          />
+
+          <h2 className='title font-bold my-3'>Chat Bot</h2>
+          <p className='mx-2 flex-1'>
+            This chat bot was built using Typescript, Angular with Tailwind and
+            CSS. Please click to see a video of the bot working.
+          </p>
+          <Link to='/chat-bot'>
+            <button className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'>
+              More
+            </button>
+          </Link>
+        </div>
         <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
           <img
             src={essay}
