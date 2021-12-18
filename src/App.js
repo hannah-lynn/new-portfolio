@@ -35,7 +35,7 @@ function App() {
               </Fragment>
             )}
           />
-          <Route exact path='/chat-bot' component={ChatBot} />
+          <Route exact path='/new-portfolio/chat-bot' component={ChatBot} />
         </Switch>
         <Footer />
       </div>

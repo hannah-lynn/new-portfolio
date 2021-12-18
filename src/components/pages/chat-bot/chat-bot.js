@@ -12,7 +12,7 @@ const ChatBot = () => {
           className='react-player'
         />
       </div>
-      <div className='see-more flex flex-col mb-4 text-left'>
+      <div className='see-more flex flex-col my-4 text-left'>
         <p>
           This chat bot was built using Angular Typescript. I styled the project
           using Tailwind CSS and SCSS.
