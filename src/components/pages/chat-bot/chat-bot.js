@@ -4,9 +4,9 @@ import './chat-bot.css';
 
 const ChatBot = () => {
   return (
-    <div className='flex flex-col text-center m-10' id='chat-bot'>
+    <div className='flex flex-col text-center m-6 lg:m-10' id='chat-bot'>
       <h1 className='font-bold text-xl mb-4'>Chat Bot</h1>
-      <div className='video-container flex flex-col justify-center items-center mt-6'>
+      <div className='video-container flex flex-col justify-center items-center mt-2 lg:mt-6'>
         <ReactPlayer
           url='https://youtu.be/W9YExAEOWn4'
           className='react-player'
@@ -19,7 +19,7 @@ const ChatBot = () => {
         </p>
         <br />
 
-        <h4 className='font-bold'>Some details:</h4>
+        <h4 className='font-bold'>Details:</h4>
         <br />
         <p className='about-video'>
           The chat can be opened by pressing the "Chat Now" tab. The chat can be
