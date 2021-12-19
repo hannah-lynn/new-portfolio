@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import { useHistory } from 'react-router-dom';
 import './chat-bot.css';
+import home from '../../../assets/images/home.png';
 
-const ChatBot = () => {
+function ChatBot() {
+  const history = useHistory();
+  const goHome = () => history.push('/new-portfolio');
+
   return (
     <div className='flex flex-col text-center m-6 lg:m-10' id='chat-bot'>
       <h1 className='font-bold text-xl mb-4'>Chat Bot</h1>
@@ -52,8 +57,14 @@ const ChatBot = () => {
           </button>
         </a>
       </div>
+      <button
+        onClick={goHome}
+        className='home-btn rounded-full fixed bottom-4 right-4 p-2'
+      >
+        <img src={home} alt='home button' className='home items-center' />
+      </button>
     </div>
   );
-};
+}
 
 export default ChatBot;
