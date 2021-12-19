@@ -16,6 +16,7 @@ let msgs = ["I'm Hannah", "I'm a Developer"];
 function App() {
   useEffect(() => {
     keepTheme();
+    window.scrollTo(0, 0);
   });
 
   return (

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactPlayer from 'react-player';
 import { useHistory } from 'react-router-dom';
 import './chat-bot.css';
@@ -7,6 +7,10 @@ import home from '../../../assets/images/home.png';
 function ChatBot() {
   const history = useHistory();
   const goHome = () => history.push('/new-portfolio');
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <div className='flex flex-col text-center m-6 lg:m-10' id='chat-bot'>
