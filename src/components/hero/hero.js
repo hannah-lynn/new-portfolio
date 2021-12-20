@@ -76,7 +76,7 @@ function Hero({ messages }) {
         />
       </div>
       <div
-        className='change m-auto mt-20 main flex items-center justify-around rounded-lg'
+        className='main m-auto mt-20 flex items-center justify-around rounded-lg'
         id='main'
       >
         <div className='main-text flex w-full justify-center space-x-2 sm:space-x-6 md:space-x-24'>
