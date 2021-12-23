@@ -1,6 +1,38 @@
 import './contact.css';
+import * as emailjs from 'emailjs-com';
 
 function Contact() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+    const button = document.getElementById('submitBtn');
+    const errorText = document.getElementById('errorText');
+    const successText = document.getElementById('successText');
+    errorText.classList.remove('show');
+    successText.classList.remove('show');
+
+    button.innerHTML = 'Sending...';
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID.toString(),
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID.toString(),
+        e.target,
+        process.env.REACT_APP_EMAILJS_USER_ID.toString()
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          successText.classList.add('show');
+        },
+        (error) => {
+          console.log(error.text);
+          errorText.classList.add('show');
+        }
+      );
+    button.innerHTML = 'Submit';
+    e.target.reset();
+  };
+
   return (
     <div className='flex flex-col justify-center my-10' id='contact'>
       <h1 className='font-bold text-xl mb-4'>Contact</h1>
@@ -8,6 +40,7 @@ function Contact() {
         <form
           action='submit'
           className='flex flex-col text-left w-full md:w-1/2 lg:w-1/3 mx-4'
+          onSubmit={sendEmail}
         >
           <label htmlFor='name' className='name ml-1 font-bold'>
             Name
@@ -15,6 +48,7 @@ function Contact() {
           <input
             type='text'
             className='name my-2 rounded-xl p-2 focus:outline-none'
+            name='contact_name'
           />
           <label htmlFor='email' className='email-label ml-1 font-bold'>
             Email
@@ -22,6 +56,7 @@ function Contact() {
           <input
             type='email'
             className='email-input my-2 rounded-xl p-2 focus:outline-none'
+            name='contact_email'
           />
           <label htmlFor='message' className='message-label ml-1 font-bold'>
             Message
@@ -33,10 +68,22 @@ function Contact() {
             rows='5'
             className=' my-2 rounded-xl p-2 focus:outline-none'
           ></textarea>
-          <div className='btn-container flex justify-center'>
-            <button className='submit-btn mt-2 py-2 px-4 items-center rounded-lg cursor-pointer'>
+          <div className='btn-container flex flex-col items-center'>
+            <button
+              className='submit-btn mt-2 py-2 px-4 items-center rounded-lg cursor-pointer'
+              id='submitBtn'
+            >
               Submit
             </button>
+            <div className='error mt-2 text-red-600 hidden' id='errorText'>
+              An error has occurred, please try later
+            </div>
+            <div
+              className='success mt-2 text-green-600 hidden'
+              id='successText'
+            >
+              Message sent
+            </div>
           </div>
         </form>
       </div>
