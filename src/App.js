@@ -10,6 +10,7 @@ import Nav from './components/nav/nav';
 import Projects from './components/projects/projects';
 import ChatBot from './components/pages/chat-bot/chat-bot';
 import './App.css';
+import Skills from './components/skills/skills';
 
 let msgs = ["I'm Hannah", "I'm a Developer"];
 
@@ -32,6 +33,7 @@ function App() {
                 <Hero messages={msgs} />
                 <About />
                 <Projects />
+                <Skills />
                 <Contact />
               </Fragment>
             )}

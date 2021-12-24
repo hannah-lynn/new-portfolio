@@ -31,15 +31,15 @@ function Nav() {
             >
               <li>Projects</li>
             </HashLink>
+            <HashLink
+              className='p-4 hover:text-green-500 flex-row'
+              to='/new-portfolio/#skills'
+            >
+              <li>Skills</li>
+            </HashLink>
           </ul>
         </div>
         <div className='items-center mr-4 mt-4'>
-          {/* <a
-            className='contact-btn py-2 px-4 items-center rounded-lg cursor-pointer'
-            href='/new-portfolio/#contact'
-          >
-            Contact
-          </a> */}
           <DarkMode />
         </div>
       </div>
