@@ -25,7 +25,7 @@ function Projects() {
             This chat bot was built using Typescript, Angular with Tailwind and
             CSS. Please click to see a video of the bot working.
           </p>
-          <Link to='/new-portfolio/chat-bot'>
+          <Link to='/chat-bot'>
             <button className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'>
               More
             </button>

@@ -27,7 +27,7 @@ function App() {
         <Switch>
           <Route
             exact
-            path='/new-portfolio'
+            path='/'
             render={() => (
               <Fragment>
                 <Hero messages={msgs} />
@@ -38,7 +38,7 @@ function App() {
               </Fragment>
             )}
           />
-          <Route exact path='/new-portfolio/chat-bot' component={ChatBot} />
+          <Route exact path='/chat-bot' component={ChatBot} />
         </Switch>
         <Footer />
       </div>

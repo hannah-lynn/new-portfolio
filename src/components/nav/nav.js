@@ -13,27 +13,24 @@ function Nav() {
             <img className='wavy' src={wavy} alt='wavy lines' />
           </div>
           <ul className='cursor-pointer hidden md:flex items-center ml-2 space-x-12'>
-            <HashLink
-              className='p-4 hover:text-green-500 flex-row'
-              to='/new-portfolio/#home'
-            >
+            <HashLink className='p-4 hover:text-green-500 flex-row' to='/#home'>
               <li>Home</li>
             </HashLink>
             <HashLink
               className='p-4 hover:text-green-500 flex-row'
-              to='/new-portfolio/#about'
+              to='/#about'
             >
               <li>About</li>
             </HashLink>
             <HashLink
               className='p-4 hover:text-green-500 flex-row'
-              to='/new-portfolio/#projects'
+              to='/#projects'
             >
               <li>Projects</li>
             </HashLink>
             <HashLink
               className='p-4 hover:text-green-500 flex-row'
-              to='/new-portfolio/#skills'
+              to='/#skills'
             >
               <li>Skills</li>
             </HashLink>

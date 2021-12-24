@@ -6,7 +6,7 @@ import home from '../../../assets/images/home.png';
 
 function ChatBot() {
   const history = useHistory();
-  const goHome = () => history.push('/new-portfolio');
+  const goHome = () => history.push('/');
 
   useEffect(() => {
     window.scrollTo(0, 0);

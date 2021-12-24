@@ -91,7 +91,7 @@ function Hero({ messages }) {
             <div className='items-center mr-4 mt-6'>
               <a
                 className='contact-btn py-2 px-4 items-center rounded-lg cursor-pointer'
-                href='/new-portfolio/#contact'
+                href='/#contact'
               >
                 Contact
               </a>
