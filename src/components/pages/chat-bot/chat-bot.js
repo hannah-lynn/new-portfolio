@@ -57,7 +57,7 @@ function ChatBot() {
           rel='noreferrer'
         >
           <button className='here-btn mt-2 py-2 px-4 items-center rounded-lg cursor-pointer'>
-            Here
+            GitHub
           </button>
         </a>
       </div>

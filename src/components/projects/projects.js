@@ -27,7 +27,7 @@ function Projects() {
           </p>
           <Link to='/chat-bot'>
             <button className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'>
-              More
+              Details
             </button>
           </Link>
         </div>
@@ -51,7 +51,7 @@ function Projects() {
             rel='noopener noreferrer'
           >
             {' '}
-            More
+            GitHub
           </a>
         </div>
         <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
@@ -71,7 +71,7 @@ function Projects() {
             rel='noopener noreferrer'
           >
             {' '}
-            More
+            GitHub
           </a>
         </div>
         <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
@@ -92,7 +92,7 @@ function Projects() {
             rel='noopener noreferrer'
           >
             {' '}
-            More
+            GitHub
           </a>
         </div>
         <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
@@ -113,7 +113,7 @@ function Projects() {
             rel='noopener noreferrer'
           >
             {' '}
-            More
+            GitHub
           </a>
         </div>
         <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
@@ -134,7 +134,7 @@ function Projects() {
             rel='noopener noreferrer'
           >
             {' '}
-            More
+            GitHub
           </a>
         </div>
         <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
@@ -155,7 +155,7 @@ function Projects() {
             rel='noopener noreferrer'
           >
             {' '}
-            More
+            GitHub
           </a>
         </div>
       </div>
