@@ -22,6 +22,7 @@
 .quokka {
     border: 3px solid #01422A;
     border-radius: 50%;
+    width: auto;
 }
 
 .half {

@@ -9,10 +9,7 @@ function Nav() {
     <nav>
       <div className='flex justify-between mt-4'>
         <div className='nav-links flex ml-4'>
-          <div className='ml-2 p-2'>
-            <img className='wavy' src={wavy} alt='wavy lines' />
-          </div>
-          <ul className='cursor-pointer hidden md:flex items-center ml-2 space-x-12'>
+          <ul className='cursor-pointer flex items-center ml-2 space-x-6 md:space-x-12 '>
             <li>
               <HashLink
                 className='p-4 hover:text-green-500 flex-row'
@@ -47,7 +44,7 @@ function Nav() {
             </li>
           </ul>
         </div>
-        <div className='items-center mr-4 mt-4'>
+        <div className='flex justify-center items-center mr-4 mt-4'>
           <DarkMode />
         </div>
       </div>
