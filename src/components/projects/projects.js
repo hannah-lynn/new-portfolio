@@ -10,7 +10,7 @@ import chatbot from '../../assets/images/chat-bot.webp';
 
 function Projects() {
   return (
-    <div className='flex flex-col my-10 m-auto w-4/5' id='projects'>
+    <div className='flex flex-col my-10 m-auto w-5/6' id='projects'>
       <h1 className='font-bold text-xl my-4'>Projects</h1>
       <div className='card-container justify-center md:flex flex-wrap mt-10 w-full'>
         <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
@@ -18,6 +18,8 @@ function Projects() {
             src={chatbot}
             alt='screenshot of chat bot'
             className='card-img rounded-lg m-4'
+            width='501'
+            height='326'
           />
 
           <h2 className='title font-bold my-3'>Chat Bot</h2>
@@ -36,6 +38,8 @@ function Projects() {
             src={essay}
             alt='screenshot of essay site'
             className='card-img rounded-lg m-4'
+            width='501'
+            height='326'
           />
 
           <h2 className='title font-bold my-3'>Essay Site</h2>
@@ -59,6 +63,8 @@ function Projects() {
             src={calculator}
             alt='screenshot of calculator'
             className='card-img rounded-lg m-4'
+            width='501'
+            height='326'
           />
           <h2 className='title font-bold my-3'>Calculator</h2>
           <p className='mx-2 flex-1'>
@@ -79,6 +85,8 @@ function Projects() {
             src={plant}
             alt='screenshot of plant site'
             className='card-img rounded-lg m-4'
+            width='501'
+            height='326'
           />
           <h2 className='title font-bold my-3'>Plant Shop</h2>
           <p className='mx-2 flex-1'>
@@ -100,6 +108,8 @@ function Projects() {
             src={countries}
             alt='screenshot of countries site'
             className='card-img rounded-lg m-4'
+            width='501'
+            height='316'
           />
           <h2 className='title font-bold my-3'>Countries</h2>
           <p className='mx-2 flex-1'>
@@ -121,6 +131,8 @@ function Projects() {
             src={rps}
             alt='screenshot of rock paper scissors game'
             className='card-img rounded-lg m-4'
+            width='501'
+            height='316'
           />
           <h2 className='title font-bold my-3'>Rock Paper Scissors</h2>
           <p className='mx-2 flex-1'>
@@ -142,6 +154,8 @@ function Projects() {
             src={tictactoe}
             alt='screenshot of tic tac toe'
             className='card-img rounded-lg m-4'
+            width='501'
+            height='316'
           />
           <h2 className='title font-bold my-3'>Tic Tac Toe</h2>
           <p className='mx-2 flex-1'>

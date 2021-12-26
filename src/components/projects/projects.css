@@ -9,3 +9,7 @@
 .projects-btn:hover {
     background-color: #fba213;
 }
+
+.card img {
+    width: auto;
+}
