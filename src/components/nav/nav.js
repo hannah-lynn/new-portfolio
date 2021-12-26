@@ -1,6 +1,5 @@
 import './nav.css';
 import React from 'react';
-import wavy from '../../assets/images/wavy.webp';
 import { HashLink } from 'react-router-hash-link';
 import DarkMode from '../darkmode/darkmode';
 
