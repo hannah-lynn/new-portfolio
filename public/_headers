@@ -8,3 +8,6 @@
 /images/*
   Cache-Control: public
   Cache-Control: max-age=604800
+
+/*
+  Content-Security-Policy: default-src 'self';
