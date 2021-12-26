@@ -1,12 +1,12 @@
 import { HashLink as Link } from 'react-router-hash-link';
 import './projects.css';
-import essay from '../../assets/images/essay-ss.png';
-import plant from '../../assets/images/plant-shop.png';
-import calculator from '../../assets/images/calculator.png';
-import countries from '../../assets/images/countries.png';
-import rps from '../../assets/images/rps.png';
-import tictactoe from '../../assets/images/tictactoe.png';
-import chatbot from '../../assets/images/chat-bot.png';
+import essay from '../../assets/images/essay-ss.webp';
+import plant from '../../assets/images/plant-shop.webp';
+import calculator from '../../assets/images/calculator.webp';
+import countries from '../../assets/images/countries.webp';
+import rps from '../../assets/images/rps.webp';
+import tictactoe from '../../assets/images/tictactoe.webp';
+import chatbot from '../../assets/images/chat-bot.webp';
 
 function Projects() {
   return (

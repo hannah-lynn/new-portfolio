@@ -1,6 +1,6 @@
 import './nav.css';
 import React from 'react';
-import wavy from '../../assets/images/wavy.png';
+import wavy from '../../assets/images/wavy.webp';
 import { HashLink } from 'react-router-hash-link';
 import DarkMode from '../darkmode/darkmode';
 
@@ -13,27 +13,38 @@ function Nav() {
             <img className='wavy' src={wavy} alt='wavy lines' />
           </div>
           <ul className='cursor-pointer hidden md:flex items-center ml-2 space-x-12'>
-            <HashLink className='p-4 hover:text-green-500 flex-row' to='/#home'>
-              <li>Home</li>
-            </HashLink>
-            <HashLink
-              className='p-4 hover:text-green-500 flex-row'
-              to='/#about'
-            >
-              <li>About</li>
-            </HashLink>
-            <HashLink
-              className='p-4 hover:text-green-500 flex-row'
-              to='/#projects'
-            >
-              <li>Projects</li>
-            </HashLink>
-            <HashLink
-              className='p-4 hover:text-green-500 flex-row'
-              to='/#skills'
-            >
-              <li>Skills</li>
-            </HashLink>
+            <li>
+              <HashLink
+                className='p-4 hover:text-green-500 flex-row'
+                to='/#home'
+              >
+                Home
+              </HashLink>
+            </li>
+            <li>
+              <HashLink
+                className='p-4 hover:text-green-500 flex-row'
+                to='/#about'
+              >
+                About
+              </HashLink>
+            </li>
+            <li>
+              <HashLink
+                className='p-4 hover:text-green-500 flex-row'
+                to='/#projects'
+              >
+                Projects
+              </HashLink>
+            </li>
+            <li>
+              <HashLink
+                className='p-4 hover:text-green-500 flex-row'
+                to='/#skills'
+              >
+                Skills
+              </HashLink>
+            </li>
           </ul>
         </div>
         <div className='items-center mr-4 mt-4'>

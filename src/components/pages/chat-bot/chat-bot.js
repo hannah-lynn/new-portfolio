@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import ReactPlayer from 'react-player';
 import { useHistory } from 'react-router-dom';
 import './chat-bot.css';
-import home from '../../../assets/images/home.png';
+import home from '../../../assets/images/home.webp';
 
 function ChatBot() {
   const history = useHistory();

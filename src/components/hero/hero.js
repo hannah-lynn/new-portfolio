@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './hero.css';
-import quokka from '../../assets/images/quokka.png';
-import half from '../../assets/images/half-circles.png';
-import halfLg from '../../assets/images/lg-half-circ.png';
+import quokka from '../../assets/images/quokka.webp';
+import half from '../../assets/images/half-circles.webp';
+import halfLg from '../../assets/images/lg-half-circ.webp';
 
 const CONSTANTS = {
   DELETING_SPEED: 30,
