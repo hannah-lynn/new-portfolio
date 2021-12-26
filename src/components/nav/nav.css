@@ -7,15 +7,3 @@
 .nav-links ul{
     font-size: 18px;
 }
-
-
-.wavy {
-    height: auto;
-}
-
-
-@media only screen and (max-width: 768px) {
-    .wavy {
-        transform: rotate(160deg);
-    }
-}
