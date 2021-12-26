@@ -49,6 +49,7 @@ function Contact() {
             type='text'
             className='name my-2 rounded-xl p-2 focus:outline-none'
             name='contact_name'
+            id='name'
           />
           <label htmlFor='email' className='email-label ml-1 font-bold'>
             Email
@@ -57,8 +58,12 @@ function Contact() {
             type='email'
             className='email-input my-2 rounded-xl p-2 focus:outline-none'
             name='contact_email'
+            id='email'
           />
-          <label htmlFor='message' className='message-label ml-1 font-bold'>
+          <label
+            htmlFor='message-area'
+            className='message-label ml-1 font-bold'
+          >
             Message
           </label>
           <textarea
