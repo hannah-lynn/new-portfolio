@@ -64,7 +64,11 @@ function Nav() {
             isMobile ? '' : 'hidden'
           } flex mobile-nav fixed bottom-0 w-full justify-around`}
         >
-          <HashLink className='p-4 hover:text-green-500 flex-row' to='/#home'>
+          <HashLink
+            className='p-4 hover:text-green-500 flex-row'
+            to='/#home'
+            aria-label='Home'
+          >
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='24'
@@ -76,7 +80,11 @@ function Nav() {
               <path d='M12 1l-12 12h3v10h18v-10h3l-12-12zm0 18c-1.607-1.626-3-2.84-3-4.027 0-1.721 2.427-2.166 3-.473.574-1.695 3-1.246 3 .473 0 1.187-1.393 2.402-3 4.027zm8-11.907l-3-3v-2.093h3v5.093z' />
             </svg>
           </HashLink>
-          <HashLink className='p-4 hover:text-green-500 flex-row' to='/#about'>
+          <HashLink
+            className='p-4 hover:text-green-500 flex-row'
+            to='/#about'
+            aria-label='About'
+          >
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='24'
@@ -91,6 +99,7 @@ function Nav() {
           <HashLink
             className='p-4 hover:text-green-500 flex-row'
             to='/#projects'
+            aria-label='Projects'
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -103,7 +112,11 @@ function Nav() {
               <path d='M21 3c0-1.657-1.343-3-3-3s-3 1.343-3 3c0 1.323.861 2.433 2.05 2.832.168 4.295-2.021 4.764-4.998 5.391-1.709.36-3.642.775-5.052 2.085v-7.492c1.163-.413 2-1.511 2-2.816 0-1.657-1.343-3-3-3s-3 1.343-3 3c0 1.305.837 2.403 2 2.816v12.367c-1.163.414-2 1.512-2 2.817 0 1.657 1.343 3 3 3s3-1.343 3-3c0-1.295-.824-2.388-1.973-2.808.27-3.922 2.57-4.408 5.437-5.012 3.038-.64 6.774-1.442 6.579-7.377 1.141-.425 1.957-1.514 1.957-2.803zm-16.8 0c0-.993.807-1.8 1.8-1.8s1.8.807 1.8 1.8-.807 1.8-1.8 1.8-1.8-.807-1.8-1.8zm3.6 18c0 .993-.807 1.8-1.8 1.8s-1.8-.807-1.8-1.8.807-1.8 1.8-1.8 1.8.807 1.8 1.8zm10.2-16.2c-.993 0-1.8-.807-1.8-1.8s.807-1.8 1.8-1.8 1.8.807 1.8 1.8-.807 1.8-1.8 1.8z' />
             </svg>
           </HashLink>
-          <HashLink className='p-4 hover:text-green-500 flex-row' to='/#skills'>
+          <HashLink
+            className='p-4 hover:text-green-500 flex-row'
+            to='/#skills'
+            aria-label='Skills'
+          >
             <svg
               width='24'
               height='24'
@@ -120,6 +133,7 @@ function Nav() {
           <HashLink
             className='p-4 hover:text-green-500 flex-row'
             to='/#contact'
+            aria-label='Contact'
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'
