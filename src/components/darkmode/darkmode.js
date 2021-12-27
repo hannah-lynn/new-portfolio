@@ -12,8 +12,8 @@ const DarkMode = () => {
   };
 
   return (
-    <div className='mode-toggle flex items-center mr-4'>
-      <div className='flex items-center justify-center w-full mb-12'>
+    <div className='mode-toggle flex items-center mt-5 pt-7 mr-2'>
+      <div className='flex items-center justify-center w-full mb-12 mr-4'>
         <label
           className='flex items-center cursor-pointer'
           htmlFor='darkMode-toggle'

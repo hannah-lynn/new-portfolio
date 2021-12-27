@@ -109,6 +109,20 @@
     }
 }
 
+@media only screen and (max-width: 374px) {
+    .main {
+        margin-top: 30px;
+    }
+
+    .red-dot {
+        top: 68px;
+    }
+
+    .half {
+        top: 378px;
+    }
+}
+
 #cursor {
     border-left: .1em solid #01422A;
     animation: blink .7s steps(1) infinite;
