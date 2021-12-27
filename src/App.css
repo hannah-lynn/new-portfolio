@@ -20,6 +20,11 @@ body {
   background-color: var(--input-color);
 }
 
+.mobile-nav {
+  background: var(--color-primary);
+  z-index: 100;
+}
+
 .theme-light {
   --color-primary: #FBF7EA;
   --color-secondary: #F4CEE2;

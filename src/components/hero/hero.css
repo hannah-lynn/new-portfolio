@@ -68,6 +68,26 @@
     }
 }
 
+@media only screen and (max-width: 640px) {
+
+    .main-text img {
+        height: 8rem;
+    }
+
+    .half {
+        left: unset;
+        right: 14px;
+        top: 390px;
+        transform: rotate(0deg)
+    }
+
+    .red-dot {
+        left: 20px;
+        top: 15px;
+        width: 120px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .main {
         height: 260px;
@@ -81,19 +101,11 @@
         font-size: 20px;
     }
 
-    .half {
-        left: 14px;
-        top: 390px;
-        transform: rotate(0deg)
-    }
-
-    .red-dot {
-        right: 20px;
-        width: 120px;
-    }
-
     .message {
         min-width: 150px;
+    }
+    .half {
+        top: 335px;
     }
 }
 
