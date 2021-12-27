@@ -18,7 +18,7 @@ function Projects() {
             src={chatbot}
             alt='screenshot of chat bot'
             className='card-img rounded-lg m-4'
-            width='501'
+            width='440'
             height='326'
           />
 
@@ -38,7 +38,7 @@ function Projects() {
             src={essay}
             alt='screenshot of essay site'
             className='card-img rounded-lg m-4'
-            width='501'
+            width='440'
             height='326'
           />
 
@@ -63,7 +63,7 @@ function Projects() {
             src={calculator}
             alt='screenshot of calculator'
             className='card-img rounded-lg m-4'
-            width='501'
+            width='440'
             height='326'
           />
           <h2 className='title font-bold my-3'>Calculator</h2>
@@ -85,7 +85,7 @@ function Projects() {
             src={plant}
             alt='screenshot of plant site'
             className='card-img rounded-lg m-4'
-            width='501'
+            width='440'
             height='326'
           />
           <h2 className='title font-bold my-3'>Plant Shop</h2>
@@ -108,7 +108,7 @@ function Projects() {
             src={countries}
             alt='screenshot of countries site'
             className='card-img rounded-lg m-4'
-            width='501'
+            width='440'
             height='316'
           />
           <h2 className='title font-bold my-3'>Countries</h2>
@@ -131,7 +131,7 @@ function Projects() {
             src={rps}
             alt='screenshot of rock paper scissors game'
             className='card-img rounded-lg m-4'
-            width='501'
+            width='440'
             height='316'
           />
           <h2 className='title font-bold my-3'>Rock Paper Scissors</h2>
@@ -154,7 +154,7 @@ function Projects() {
             src={tictactoe}
             alt='screenshot of tic tac toe'
             className='card-img rounded-lg m-4'
-            width='501'
+            width='440'
             height='316'
           />
           <h2 className='title font-bold my-3'>Tic Tac Toe</h2>
