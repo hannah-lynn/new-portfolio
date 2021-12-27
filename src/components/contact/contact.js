@@ -7,10 +7,20 @@ function Contact() {
     const button = document.getElementById('submitBtn');
     const errorText = document.getElementById('errorText');
     const successText = document.getElementById('successText');
+    const emptyText = document.getElementById('emptyText');
     errorText.classList.remove('show');
     successText.classList.remove('show');
+    emptyText.classList.remove('show');
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message-area').value;
+
+    if (name === '' || email === '' || message === '') {
+      return emptyText.classList.add('show');
+    }
 
     button.innerHTML = 'Sending...';
+    button.disabled = true;
 
     emailjs
       .sendForm(
@@ -30,6 +40,7 @@ function Contact() {
         }
       );
     button.innerHTML = 'Submit';
+    button.disabled = false;
     e.target.reset();
   };
 
@@ -82,6 +93,9 @@ function Contact() {
             </button>
             <div className='error mt-2 text-red-600 hidden' id='errorText'>
               An error has occurred, please try later
+            </div>
+            <div className='empty mt-2 text-red-600 hidden' id='emptyText'>
+              Form must be filled to submit
             </div>
             <div
               className='success mt-2 text-green-600 hidden'
