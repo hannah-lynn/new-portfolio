@@ -21,8 +21,7 @@ function About() {
         <br />
         I'm also a volunteer for Care4Calais, a volunteer run refugee charity
         where I help give direct aid to asylum seekers in the UK. In my spare
-        time I like to grow plants and write long lists of ideas for things to
-        code.
+        time I like to grow houseplants.
       </p>
     </div>
   );
