@@ -58,7 +58,7 @@ function Contact() {
           </label>
           <input
             type='text'
-            className='name my-2 rounded-xl p-2 focus:outline-none'
+            className='name my-2 rounded-xl p-2 focus:outline-none shadow-md'
             name='contact_name'
             id='name'
           />
@@ -67,7 +67,7 @@ function Contact() {
           </label>
           <input
             type='email'
-            className='email-input my-2 rounded-xl p-2 focus:outline-none'
+            className='email-input my-2 rounded-xl p-2 focus:outline-none shadow-md'
             name='contact_email'
             id='email'
           />
@@ -82,7 +82,7 @@ function Contact() {
             id='message-area'
             cols='30'
             rows='5'
-            className=' my-2 rounded-xl p-2 focus:outline-none'
+            className=' my-2 rounded-xl p-2 focus:outline-none shadow-md'
           ></textarea>
           <div className='btn-container flex flex-col items-center'>
             <button
