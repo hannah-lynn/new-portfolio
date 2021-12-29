@@ -1,9 +1,9 @@
-import './nav.css';
+import './header.css';
 import React, { useEffect, useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import DarkMode from '../darkmode/darkmode';
 
-function Nav() {
+function Header() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 641);
   useEffect(() => {
     const ac = new AbortController();
@@ -19,11 +19,14 @@ function Nav() {
   }, [isMobile]);
 
   return (
-    <nav role='navigation'>
+    <header>
       <div
         className={`${isMobile ? 'justify-end' : 'justify-between'} flex mt-2`}
       >
-        <div className={`${isMobile ? 'hidden' : ''} nav-links flex ml-4`}>
+        <nav
+          role='navigation'
+          className={`${isMobile ? 'hidden' : ''} nav-links flex ml-4`}
+        >
           <ul className='cursor-pointer sm:flex items-center space-x-6 md:space-x-8'>
             <li>
               <HashLink
@@ -58,7 +61,7 @@ function Nav() {
               </HashLink>
             </li>
           </ul>
-        </div>
+        </nav>
         <div
           className={`${
             isMobile ? '' : 'hidden'
@@ -208,8 +211,8 @@ function Nav() {
           <DarkMode />
         </div>
       </div>
-    </nav>
+    </header>
   );
 }
 
-export default Nav;
+export default Header;

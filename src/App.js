@@ -6,7 +6,7 @@ import About from './components/about/about';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Hero from './components/hero/hero';
-import Nav from './components/nav/nav';
+import Header from './components/header/header';
 import Projects from './components/projects/projects';
 import ChatBot from './components/pages/chat-bot/chat-bot';
 import './App.css';
@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <Nav />
+        <Header />
         <Switch>
           <Route
             exact
