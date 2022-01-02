@@ -7,12 +7,37 @@ import countries from '../../assets/images/countries.webp';
 import rps from '../../assets/images/rps.webp';
 import tictactoe from '../../assets/images/tictactoe.webp';
 import chatbot from '../../assets/images/chat-bot.webp';
+import aloe from '../../assets/images/aloe-you.webp';
 
 function Projects() {
   return (
     <div className='flex flex-col my-10 m-auto w-5/6' id='projects'>
       <h1 className='font-bold text-xl my-4'>Projects</h1>
       <div className='card-container justify-center md:flex flex-wrap mt-10 w-full'>
+        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
+          <img
+            src={aloe}
+            alt='screenshot of chat bot'
+            className='card-img rounded-lg m-4'
+            width='440'
+            height='326'
+          />
+
+          <h2 className='title font-bold my-3'>Aloe You</h2>
+          <p className='mx-2 flex-1'>
+            A WIP plant shop. I'm building this to improve my React skills,
+            learn Firebase, experiment with GraphQL, Hooks and Redux.
+          </p>
+          <a
+            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
+            href='https://github.com/hannahl87/aloe-you'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {' '}
+            GitHub
+          </a>
+        </div>
         <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
           <img
             src={chatbot}
