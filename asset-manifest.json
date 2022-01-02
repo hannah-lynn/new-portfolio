@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.51cd8fbf.chunk.css",
+    "main.css": "./static/css/main.b18b0643.chunk.css",
     "main.js": "./static/js/main.713bc456.chunk.js",
     "main.js.map": "./static/js/main.713bc456.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.09260844.js",
@@ -12,7 +12,7 @@
     "index.html": "./index.html",
     "service-worker.js": "./service-worker.js",
     "service-worker.js.map": "./service-worker.js.map",
-    "static/css/main.51cd8fbf.chunk.css.map": "./static/css/main.51cd8fbf.chunk.css.map",
+    "static/css/main.b18b0643.chunk.css.map": "./static/css/main.b18b0643.chunk.css.map",
     "static/js/2.26415593.chunk.js.LICENSE.txt": "./static/js/2.26415593.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/Poppins-Regular.8081832f.ttf",
     "static/media/aloe-you.6aaa0547.webp": "./static/media/aloe-you.6aaa0547.webp",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.09260844.js",
     "static/js/2.26415593.chunk.js",
-    "static/css/main.51cd8fbf.chunk.css",
+    "static/css/main.b18b0643.chunk.css",
     "static/js/main.713bc456.chunk.js"
   ]
 }
