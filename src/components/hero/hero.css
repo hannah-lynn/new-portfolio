@@ -28,7 +28,7 @@
 .half {
     position: absolute;
     left: 20px;
-    top: 456px;
+    top: 532px;
     transform: rotate(45deg);
 }
 
@@ -65,6 +65,11 @@
 
     .message {
         min-width: 225px;
+    }
+
+    .half {
+        left: 12px;
+        top: 466px;
     }
 }
 
