@@ -1,37 +1,35 @@
 {
   "files": {
-    "main.css": "./static/css/main.f575bed7.chunk.css",
-    "main.js": "./static/js/main.63558acb.chunk.js",
-    "main.js.map": "./static/js/main.63558acb.chunk.js.map",
+    "main.css": "./static/css/main.51cd8fbf.chunk.css",
+    "main.js": "./static/js/main.713bc456.chunk.js",
+    "main.js.map": "./static/js/main.713bc456.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.09260844.js",
     "runtime-main.js.map": "./static/js/runtime-main.09260844.js.map",
-    "static/js/2.516f0137.chunk.js": "./static/js/2.516f0137.chunk.js",
-    "static/js/2.516f0137.chunk.js.map": "./static/js/2.516f0137.chunk.js.map",
+    "static/js/2.26415593.chunk.js": "./static/js/2.26415593.chunk.js",
+    "static/js/2.26415593.chunk.js.map": "./static/js/2.26415593.chunk.js.map",
     "static/js/3.f53ae11e.chunk.js": "./static/js/3.f53ae11e.chunk.js",
     "static/js/3.f53ae11e.chunk.js.map": "./static/js/3.f53ae11e.chunk.js.map",
     "index.html": "./index.html",
     "service-worker.js": "./service-worker.js",
     "service-worker.js.map": "./service-worker.js.map",
-    "static/css/main.f575bed7.chunk.css.map": "./static/css/main.f575bed7.chunk.css.map",
-    "static/js/2.516f0137.chunk.js.LICENSE.txt": "./static/js/2.516f0137.chunk.js.LICENSE.txt",
+    "static/css/main.51cd8fbf.chunk.css.map": "./static/css/main.51cd8fbf.chunk.css.map",
+    "static/js/2.26415593.chunk.js.LICENSE.txt": "./static/js/2.26415593.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/aloe-you.6aaa0547.webp": "./static/media/aloe-you.6aaa0547.webp",
     "static/media/calculator.abe90633.webp": "./static/media/calculator.abe90633.webp",
     "static/media/chat-bot.45ca97b0.webp": "./static/media/chat-bot.45ca97b0.webp",
     "static/media/countries.3a978218.webp": "./static/media/countries.3a978218.webp",
     "static/media/essay-ss.acb9de2c.webp": "./static/media/essay-ss.acb9de2c.webp",
-    "static/media/half-circles.06204aac.webp": "./static/media/half-circles.06204aac.webp",
     "static/media/home.06c67b76.webp": "./static/media/home.06c67b76.webp",
-    "static/media/lg-half-circ.e975a5af.webp": "./static/media/lg-half-circ.e975a5af.webp",
     "static/media/plant-shop.65089e95.webp": "./static/media/plant-shop.65089e95.webp",
     "static/media/quokka.e45de208.webp": "./static/media/quokka.e45de208.webp",
     "static/media/rps.257613ff.webp": "./static/media/rps.257613ff.webp",
-    "static/media/tictactoe.56314000.webp": "./static/media/tictactoe.56314000.webp",
-    "static/media/wavy.4e609147.webp": "./static/media/wavy.4e609147.webp"
+    "static/media/tictactoe.56314000.webp": "./static/media/tictactoe.56314000.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.09260844.js",
-    "static/js/2.516f0137.chunk.js",
-    "static/css/main.f575bed7.chunk.css",
-    "static/js/main.63558acb.chunk.js"
+    "static/js/2.26415593.chunk.js",
+    "static/css/main.51cd8fbf.chunk.css",
+    "static/js/main.713bc456.chunk.js"
   ]
 }
