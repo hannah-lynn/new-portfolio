@@ -26,7 +26,7 @@ function About() {
             great perspective.
           </p>
         </div>
-        <p className='text-left col-span-2 md:col-span-1'>
+        <div className='text-left col-span-2 md:col-span-1'>
           <p className='mt-2'>
             I'm always thinking of the customer journey - how to drive sales,
             footfall, reduce loss and also working together, leading a team to
@@ -43,7 +43,7 @@ function About() {
             I'm also a volunteer for Care4Calais, a volunteer run refugee
             charity where I help give direct aid to asylum seekers in the UK.
           </p>
-        </p>
+        </div>
       </div>
     </div>
   );

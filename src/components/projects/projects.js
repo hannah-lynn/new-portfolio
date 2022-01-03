@@ -1,4 +1,3 @@
-import { HashLink as Link } from 'react-router-hash-link';
 import './projects.css';
 import essay from '../../assets/images/essay-ss.webp';
 import plant from '../../assets/images/plant-shop.webp';
@@ -8,195 +7,76 @@ import rps from '../../assets/images/rps.webp';
 import tictactoe from '../../assets/images/tictactoe.webp';
 import chatbot from '../../assets/images/chat-bot.webp';
 import aloe from '../../assets/images/aloe-you.webp';
+import bill from '../../assets/images/bill.webp';
+import ProjectCard from '../project card/project-card';
 
 function Projects() {
   return (
     <div className='flex flex-col my-10 m-auto w-5/6' id='projects'>
       <h1 className='font-bold text-xl my-4'>Projects</h1>
       <div className='card-container justify-center md:flex flex-wrap mt-10 w-full'>
-        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
-          <img
-            src={aloe}
-            alt='screenshot of chat bot'
-            className='card-img rounded-lg m-4'
-            width='440'
-            height='326'
-          />
-
-          <h2 className='title font-bold my-3'>Aloe You</h2>
-          <p className='mx-2 flex-1'>
-            A WIP plant shop. I'm building this to improve my React skills,
-            learn Firebase, experiment with GraphQL, Hooks and Redux.
-          </p>
-          <a
-            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
-            href='https://github.com/hannahl87/aloe-you'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {' '}
-            GitHub
-          </a>
-        </div>
-        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
-          <img
-            src={chatbot}
-            alt='screenshot of chat bot'
-            className='card-img rounded-lg m-4'
-            width='440'
-            height='326'
-          />
-
-          <h2 className='title font-bold my-3'>Chat Bot</h2>
-          <p className='mx-2 flex-1'>
-            This chat bot was built using Typescript, Angular with Tailwind and
-            CSS. Please click to see a video of the bot working.
-          </p>
-          <Link to='/chat-bot'>
-            <button className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'>
-              Details
-            </button>
-          </Link>
-        </div>
-        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
-          <img
-            src={essay}
-            alt='screenshot of essay site'
-            className='card-img rounded-lg m-4'
-            width='440'
-            height='326'
-          />
-
-          <h2 className='title font-bold my-3'>Essay Site</h2>
-          <p className='mx-2 flex-1'>
-            A site to display essays and link back to criteria or reference
+        <ProjectCard
+          img={aloe}
+          title={'Aloe You'}
+          description={`A WIP plant shop. I'm building this to improve my React skills,
+            learn Firebase, experiment with GraphQL, Hooks and Redux.`}
+          href={`https://github.com/hannahl87/aloe-you`}
+        />
+        <ProjectCard
+          img={chatbot}
+          title={'Chat Bot'}
+          description={`This chat bot was built using Typescript, Angular with Tailwind and
+            CSS. Please click to see a video of the bot working.`}
+          link={`/chat-bot`}
+        />
+        <ProjectCard
+          img={essay}
+          title={'Essay Site'}
+          description={`A site to display essays and link back to criteria or reference
             points in the essay. Made using React and React Tabs and styled with
-            Tailwind CSS.
-          </p>
-          <a
-            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
-            href='https://github.com/hannahl87/essay-site'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {' '}
-            GitHub
-          </a>
-        </div>
-        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
-          <img
-            src={calculator}
-            alt='screenshot of calculator'
-            className='card-img rounded-lg m-4'
-            width='440'
-            height='326'
-          />
-          <h2 className='title font-bold my-3'>Calculator</h2>
-          <p className='mx-2 flex-1'>
-            A simple calculator built using HTML, CSS and Javascript.
-          </p>
-          <a
-            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
-            href='https://github.com/hannahl87/calculator'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {' '}
-            GitHub
-          </a>
-        </div>
-        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
-          <img
-            src={plant}
-            alt='screenshot of plant site'
-            className='card-img rounded-lg m-4'
-            width='440'
-            height='326'
-          />
-          <h2 className='title font-bold my-3'>Plant Shop</h2>
-          <p className='mx-2 flex-1'>
-            A fully responsive single page website built using HTML, CSS and
-            Javascript. Showcasing an animated nav on smaller screens.
-          </p>
-          <a
-            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
-            href='https://github.com/hannahl87/theplantshop'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {' '}
-            GitHub
-          </a>
-        </div>
-        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
-          <img
-            src={countries}
-            alt='screenshot of countries site'
-            className='card-img rounded-lg m-4'
-            width='440'
-            height='316'
-          />
-          <h2 className='title font-bold my-3'>Countries</h2>
-          <p className='mx-2 flex-1'>
-            Using Rest Countries API you can search through to find your country
-            of choice with Capital City and flag.
-          </p>
-          <a
-            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
-            href='https://github.com/hannahl87/countries'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {' '}
-            GitHub
-          </a>
-        </div>
-        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
-          <img
-            src={rps}
-            alt='screenshot of rock paper scissors game'
-            className='card-img rounded-lg m-4'
-            width='440'
-            height='316'
-          />
-          <h2 className='title font-bold my-3'>Rock Paper Scissors</h2>
-          <p className='mx-2 flex-1'>
-            A cute rock paper scissors game that can be played against the
-            computer on smaller and larger screens.
-          </p>
-          <a
-            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
-            href='https://github.com/hannahl87/rockpaperscissors'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {' '}
-            GitHub
-          </a>
-        </div>
-        <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
-          <img
-            src={tictactoe}
-            alt='screenshot of tic tac toe'
-            className='card-img rounded-lg m-4'
-            width='440'
-            height='316'
-          />
-          <h2 className='title font-bold my-3'>Tic Tac Toe</h2>
-          <p className='mx-2 flex-1'>
-            Tic Tac Toe can is a responsive 2 player game utilising simple
-            javascript is along with HTML and CSS.
-          </p>
-          <a
-            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
-            href='https://github.com/hannahl87/tictactoe'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {' '}
-            GitHub
-          </a>
-        </div>
+            Tailwind CSS.`}
+          href={`https://github.com/hannahl87/essay-site`}
+        />
+        <ProjectCard
+          img={calculator}
+          title={'Calculator'}
+          description={`A simple calculator built using HTML, CSS and Javascript.`}
+          href={`https://github.com/hannahl87/calculator`}
+        />
+        <ProjectCard
+          img={plant}
+          title={'Plant Shop'}
+          description={`A fully responsive single page website built using HTML, CSS and
+            Javascript. Showcasing an animated nav on smaller screens.`}
+          href={`https://github.com/hannahl87/theplantshop`}
+        />
+        <ProjectCard
+          img={countries}
+          title={'Countries'}
+          description={`Using Rest Countries API you can search through to find your country
+            of choice with Capital City and flag.`}
+          href={`https://github.com/hannahl87/countries`}
+        />
+        <ProjectCard
+          img={rps}
+          title={'Rock, Paper, Scissors'}
+          description={`A cute rock paper scissors game that can be played against the
+            computer on smaller and larger screens.`}
+          href={`https://github.com/hannahl87/rockpaperscissors`}
+        />
+        <ProjectCard
+          img={tictactoe}
+          title={'Tick Tac Toe'}
+          description={`Tic Tac Toe can is a responsive 2 player game utilising simple
+            javascript is along with HTML and CSS.`}
+          href={`https://github.com/hannahl87/tictactoe`}
+        />
+        <ProjectCard
+          img={bill}
+          title={'Bill Splitter'}
+          description={`Bill splitting application build using HTML, CSS and JS, allows users to type in bill total, add service, and split between diners`}
+          href={`https://github.com/hannahl87/billsplitter`}
+        />
       </div>
     </div>
   );
