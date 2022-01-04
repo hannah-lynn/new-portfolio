@@ -191,7 +191,7 @@ function Header() {
             <a
               className='p-4 hover:text-green-500 flex-row'
               aria-label='GitHub'
-              href='https://github.com/hannahl87'
+              href='https://github.com/hannah-lynn'
               target='_blank'
               rel='noopener noreferrer'
             >

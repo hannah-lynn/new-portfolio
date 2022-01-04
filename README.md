@@ -6,6 +6,6 @@ This is the start of my new portfolio. It's not finished yet but happy to hear s
 
 Here's a link to view:
 
-https://hannahl87.github.io/new-portfolio
+https://hannah-lynn.github.io/new-portfolio
 
 Thanks

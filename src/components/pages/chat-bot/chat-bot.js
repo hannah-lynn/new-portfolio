@@ -51,7 +51,7 @@ function ChatBot() {
         <br />
         <p>You can see more about this project</p>
         <a
-          href='https://github.com/hannahl87/chat-bot'
+          href='https://github.com/hannah-lynn/chat-bot'
           className='project-link'
           target='_blank'
           rel='noreferrer'

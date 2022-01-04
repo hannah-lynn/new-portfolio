@@ -20,7 +20,7 @@ function Projects() {
           title={'Aloe You'}
           description={`A WIP plant shop. I'm building this to improve my React skills,
             learn Firebase, experiment with GraphQL, Hooks and Redux.`}
-          href={`https://github.com/hannahl87/aloe-you`}
+          href={`https://github.com/hannah-lynn/aloe-you`}
         />
         <ProjectCard
           img={chatbot}
@@ -35,47 +35,47 @@ function Projects() {
           description={`A site to display essays and link back to criteria or reference
             points in the essay. Made using React and React Tabs and styled with
             Tailwind CSS.`}
-          href={`https://github.com/hannahl87/essay-site`}
+          href={`https://github.com/hannah-lynn/essay-site`}
         />
         <ProjectCard
           img={calculator}
           title={'Calculator'}
           description={`A simple calculator built using HTML, CSS and Javascript.`}
-          href={`https://github.com/hannahl87/calculator`}
+          href={`https://github.com/hannah-lynn/calculator`}
         />
         <ProjectCard
           img={plant}
           title={'Plant Shop'}
           description={`A fully responsive single page website built using HTML, CSS and
             Javascript. Showcasing an animated nav on smaller screens.`}
-          href={`https://github.com/hannahl87/theplantshop`}
+          href={`https://github.com/hannah-lynn/theplantshop`}
         />
         <ProjectCard
           img={countries}
           title={'Countries'}
           description={`Using Rest Countries API you can search through to find your country
             of choice with Capital City and flag.`}
-          href={`https://github.com/hannahl87/countries`}
+          href={`https://github.com/hannah-lynn/countries`}
         />
         <ProjectCard
           img={rps}
           title={'Rock, Paper, Scissors'}
           description={`A cute rock paper scissors game that can be played against the
             computer on smaller and larger screens.`}
-          href={`https://github.com/hannahl87/rockpaperscissors`}
+          href={`https://github.com/hannah-lynn/rockpaperscissors`}
         />
         <ProjectCard
           img={tictactoe}
           title={'Tick Tac Toe'}
           description={`Tic Tac Toe can is a responsive 2 player game utilising simple
             javascript is along with HTML and CSS.`}
-          href={`https://github.com/hannahl87/tictactoe`}
+          href={`https://github.com/hannah-lynn/tictactoe`}
         />
         <ProjectCard
           img={bill}
           title={'Bill Splitter'}
           description={`Bill splitting application build using HTML, CSS and JS, allows users to type in bill total, add service, and split between diners`}
-          href={`https://github.com/hannahl87/billsplitter`}
+          href={`https://github.com/hannah-lynn/billsplitter`}
         />
       </div>
     </div>
