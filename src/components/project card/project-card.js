@@ -17,7 +17,7 @@ const ProjectCard = ({ img, title, description, view, github }) => {
       {view && github ? (
         <div className='buttons flex'>
           <a
-            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
+            className='projects-btn rounded-lg mx-auto my-3 cursor-pointer bg-gray-50 p-2'
             href={view}
             target='_blank'
             rel='noopener noreferrer'
@@ -26,7 +26,7 @@ const ProjectCard = ({ img, title, description, view, github }) => {
             View
           </a>
           <a
-            className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'
+            className='projects-btn rounded-lg mx-auto my-3 cursor-pointer bg-gray-50 p-2'
             href={github}
             target='_blank'
             rel='noopener noreferrer'
@@ -37,7 +37,7 @@ const ProjectCard = ({ img, title, description, view, github }) => {
         </div>
       ) : (
         <Link to={view}>
-          <button className='projects-btn rounded-2xl mx-auto my-3 cursor-pointer bg-gray-50 p-2'>
+          <button className='projects-btn rounded-lg mx-auto my-3 cursor-pointer bg-gray-50 p-2'>
             Details
           </button>
         </Link>
