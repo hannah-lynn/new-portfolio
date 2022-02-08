@@ -31,9 +31,9 @@ function App() {
             render={() => (
               <Fragment>
                 <Hero messages={msgs} />
+                <Skills />
                 <About />
                 <Projects />
-                <Skills />
                 <Contact />
               </Fragment>
             )}
