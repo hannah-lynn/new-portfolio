@@ -2,9 +2,9 @@ import './about.css';
 
 function About() {
   return (
-    <div className='flex flex-col mt-24 m-auto w-4/5' id='about'>
-      <h1 className='font-bold text-xl mb-4'>About Me</h1>
-      <div className='grid grid-cols-2 md:gap-4'>
+    <div className='flex flex-col my-10 m-auto w-4/5' id='about'>
+      <h1 className='font-bold text-xl my-4'>About Me</h1>
+      <div className='grid grid-cols-2 mt-10 md:gap-4'>
         <div className='text-left col-span-2 md:col-span-1'>
           <p>
             I'm a self taught developer from Manchester, UK. I started teaching

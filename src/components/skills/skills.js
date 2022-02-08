@@ -6,8 +6,8 @@ function Skills() {
       className='flex flex-col justify-center my-10 m-auto w-4/5'
       id='skills'
     >
-      <h1 className='title font-bold text-xl my-10'>Skills</h1>
-      <div className='logos flex flex-wrap my-10 justify-center'>
+      <h1 className='title font-bold text-xl my-4'>Skills</h1>
+      <div className='logos flex flex-wrap mt-10 justify-center'>
         <div>
           <svg
             xmlns='http://www.w3.org/2000/svg'

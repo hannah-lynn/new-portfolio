@@ -49,8 +49,8 @@ function Contact() {
       className='flex flex-col justify-center my-10 m-auto w-4/5'
       id='contact'
     >
-      <h1 className='font-bold text-xl mb-4'>Contact</h1>
-      <div className='form-card flex justify-center'>
+      <h1 className='font-bold text-xl my-4'>Contact</h1>
+      <div className='form-card flex justify-center mt-10'>
         <form
           action='submit'
           className='flex flex-col text-left w-full md:w-1/2 mx-4'
