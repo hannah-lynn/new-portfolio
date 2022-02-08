@@ -28,6 +28,7 @@ function Header() {
           <ul className='cursor-pointer sm:flex items-center space-x-6 md:space-x-8'>
             <li>
               <HashLink
+                smooth
                 className='p-2 md:p-4 hover:text-green-500 flex-row'
                 to='/#home'
               >
@@ -36,6 +37,7 @@ function Header() {
             </li>
             <li>
               <HashLink
+                smooth
                 className='p-4 hover:text-green-500 flex-row'
                 to='/#about'
               >
@@ -44,6 +46,7 @@ function Header() {
             </li>
             <li>
               <HashLink
+                smooth
                 className='p-4 hover:text-green-500 flex-row'
                 to='/#projects'
               >
@@ -52,6 +55,7 @@ function Header() {
             </li>
             <li>
               <HashLink
+                smooth
                 className='p-4 hover:text-green-500 flex-row'
                 to='/#skills'
               >
@@ -66,7 +70,8 @@ function Header() {
           } flex mobile-nav fixed bottom-0 w-full justify-around`}
         >
           <HashLink
-            className='p-4 hover:text-green-800 flex-row'
+            smooth
+            className='test p-4 hover:text-green-800 flex-row'
             to='/#home'
             aria-label='Home'
           >
@@ -82,6 +87,7 @@ function Header() {
             </svg>
           </HashLink>
           <HashLink
+            smooth
             className='p-4 hover:text-green-800 flex-row'
             to='/#about'
             aria-label='About'
@@ -98,6 +104,8 @@ function Header() {
             </svg>
           </HashLink>
           <HashLink
+            smooth
+            behavior='smooth'
             className='p-4 hover:text-green-800 flex-row'
             to='/#projects'
             aria-label='Projects'
@@ -114,6 +122,7 @@ function Header() {
             </svg>
           </HashLink>
           <HashLink
+            smooth
             className='p-4 hover:text-green-800 flex-row'
             to='/#skills'
             aria-label='Skills'
@@ -132,6 +141,7 @@ function Header() {
             </svg>
           </HashLink>
           <HashLink
+            smooth
             className='p-4 hover:text-green-800 flex-row'
             to='/#contact'
             aria-label='Contact'
