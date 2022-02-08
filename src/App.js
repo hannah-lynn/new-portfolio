@@ -12,7 +12,7 @@ import ChatBot from './components/pages/chat-bot/chat-bot';
 import './App.css';
 import Skills from './components/skills/skills';
 
-let msgs = ["I'm Hannah", "I'm a Developer"];
+let msgs = ['a Frontend', 'a Backend', 'a Full Stack', 'a Developer'];
 
 function App() {
   useEffect(() => {

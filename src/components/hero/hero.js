@@ -106,7 +106,7 @@ function Hero({ messages }) {
         <div className='main-text flex w-full justify-center space-x-2 sm:space-x-6 md:space-x-24'>
           <div className='cta-info flex flex-col justify-center '>
             <h2 className='text-2xl md:text-3xl flex flex-col'>
-              Hello,
+              I'm Hannah,
               <div className='message'>
                 <span>{state.text}</span>
                 <span id='cursor' />
