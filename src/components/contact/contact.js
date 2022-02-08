@@ -45,7 +45,10 @@ function Contact() {
   };
 
   return (
-    <div className='flex flex-col justify-center my-10' id='contact'>
+    <div
+      className='flex flex-col justify-center my-10 m-auto w-4/5'
+      id='contact'
+    >
       <h1 className='font-bold text-xl mb-4'>Contact</h1>
       <div className='form-card flex justify-center'>
         <form
