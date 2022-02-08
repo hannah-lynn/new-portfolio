@@ -25,11 +25,16 @@ body {
   z-index: 100;
 }
 
+h1 {
+  color: var(--font-second-color);
+}
+
 .theme-light {
   --color-primary: #FBF7EA;
   --color-secondary: #F4CEE2;
   --color-accent: #01422A;
   --font-color: #01422A;
+  --font-second-color: #01422A;
   --input-color: #ffffff;
 }
 
@@ -38,5 +43,6 @@ body {
   --color-secondary: #464646;
   --color-accent: #01422A;
   --font-color: #FBF7EA;
+  --font-second-color: #FBBD13;
   --input-color: #464646;
 }
