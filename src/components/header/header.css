@@ -7,3 +7,7 @@
 .nav-links ul{
     font-size: 18px;
 }
+
+.social-icon:hover {
+    fill: #FBBD13;
+}
