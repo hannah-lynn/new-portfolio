@@ -3,7 +3,7 @@ import './project-card.css';
 
 const ProjectCard = ({ img, title, description, href, link }) => {
   return (
-    <div className='card md:w-1/3 lg:w-1/4 transform hover:scale-105 flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
+    <div className='card md:w-1/3 lg:w-1/4 transform flex flex-col rounded-lg shadow-2xl mb-6 mx-2'>
       <img
         src={img}
         alt='screenshot of chat bot'
