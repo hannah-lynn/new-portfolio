@@ -10,6 +10,7 @@ const ProjectCard = ({ img, title, description, view, github }) => {
         className='card-img rounded-lg m-4'
         width='440'
         height='326'
+        loading='lazy'
       />
 
       <h2 className='title font-bold my-3'>{title}</h2>
