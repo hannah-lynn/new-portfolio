@@ -14,7 +14,8 @@ function Projects() {
           img={sport}
           title={'Sport Culture'}
           description={`A sport shop built using Typescript/Angular. Items are fetched from an api and can be added and removed from the basket`}
-          view={`https://github.com/hannah-lynn/sport-culture`}
+          view={`https://hannah-lynn.github.io/sport-culture/`}
+          github={`https://github.com/hannah-lynn/sport-culture`}
         />
         <ProjectCard
           img={aloe}
