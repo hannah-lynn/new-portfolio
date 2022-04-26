@@ -7,17 +7,16 @@ function About() {
       <div className='grid grid-cols-2 mt-10 md:gap-4'>
         <div className='text-left col-span-2 md:col-span-1'>
           <p>
-            I'm a self taught developer from Manchester, UK. I started teaching
-            myself HTML, CSS, and Javascript in 2019, when I was in New Zealand,
-            and was really happy to start a full time developer role in October
-            2020.
+            I'm a self taught, full stack developer, from Manchester, UK. I
+            started teaching myself HTML, CSS, and Javascript in 2019, when I
+            was in New Zealand, and was really happy to start a full time
+            developer role in October 2020.
           </p>
           <p className='mt-2'>
-            Currently, I work frontend with Angular and Typescript and backend
-            with PecoTS and MySQL. I enjoying coding in my spare time, where I
-            build things, like this website, using React. I'm constantly looking
-            for new things to learn and better ways to write my code, that's
-            part of why I love coding.
+            Currently, I work frontend with Angular and Typescript. I enjoying
+            coding in my spare time, where I build things, like this website,
+            using React. I'm constantly looking for new things to learn and
+            better ways to write my code, that's part of why I love coding.
           </p>
           <p className='mt-2'>
             Previously, I worked as a Deputy Store Manager of a 60,000sq ft
