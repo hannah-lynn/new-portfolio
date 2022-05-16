@@ -3,7 +3,7 @@ import './skills.css';
 function Skills() {
   return (
     <div
-      className='flex flex-col justify-center my-10 m-auto w-4/5'
+      className='flex flex-col justify-center mt-16 mb-10 m-auto w-4/5'
       id='skills'
     >
       <h1 className='title font-bold text-xl my-4'>Skills</h1>
