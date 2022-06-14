@@ -20,7 +20,7 @@ function About() {
           </p>
           <p className='mt-2'>
             Previously, I worked as a Deputy Store Manager of a 60,000sq ft
-            Tesco Extra, with a turnover of £500k a week, and also at Urban
+            Tesco Extra, with a turnover of £450k per week, and also at Urban
             Outfitters in Berlin. Working in retail management has given me a
             great perspective.
           </p>
