@@ -34,13 +34,14 @@ function About() {
           <p className='mt-2'>
             In my spare time I like to grow houseplants and travel. I've lived
             and worked in 5 countries and travelled many more. One of my
-            favorite memories is climbing Volcan Acatenango, in Guatemala. We
+            favorite memories is climbing 'Volcan Acatenango', in Guatemala. We
             camped 4000m up and watched the neighbouring Volcano, Fuego, erupt
             every 10 minutes!
           </p>
           <p className='mt-2'>
-            I'm also a volunteer for Care4Calais, a volunteer run refugee
-            charity where I help give direct aid to asylum seekers in the UK.
+            I'm currently volunteering as a mentor for School of Code and
+            Care4Calais, a volunteer run refugee charity where I help give
+            direct aid and support to asylum seekers and refugees.
           </p>
         </div>
       </div>
