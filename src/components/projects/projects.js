@@ -22,7 +22,7 @@ function Projects() {
           title={'Aloe You'}
           description={`A WIP plant shop. I'm building this to improve my React skills,
             learn Firebase, experiment with GraphQL, Hooks and Redux.`}
-          view={`https://hannah-lynn.github.io/aloe-you/`}
+          view={`https://lambent-lokum-8240f8.netlify.app/aloe-you`}
           github={`https://github.com/hannah-lynn/aloe-you`}
         />
         <ProjectCard
