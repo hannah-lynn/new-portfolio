@@ -12,14 +12,14 @@ function Projects() {
       <div className='card-container justify-center sm:flex flex-wrap mt-10'>
         <ProjectCard
           img={sport}
-          title={'Sport Culture'}
+          title={"Sport Culture"}
           description={`A sport shop built using Typescript/Angular. Items are fetched from an api and can be added and removed from the basket`}
           view={`https://hannah-lynn.github.io/sport-culture/`}
           github={`https://github.com/hannah-lynn/sport-culture`}
         />
         <ProjectCard
           img={aloe}
-          title={'Aloe You'}
+          title={"Aloe You"}
           description={`A WIP plant shop. I'm building this to improve my React skills,
             learn Firebase, experiment with GraphQL, Hooks and Redux.`}
           view={`https://lambent-lokum-8240f8.netlify.app/aloe-you`}
@@ -27,17 +27,16 @@ function Projects() {
         />
         <ProjectCard
           img={chatbot}
-          title={'Chat Bot'}
+          title={"Chat Bot"}
           description={`This chat bot was built using Typescript, Angular with Tailwind and
             CSS. Please click to see a video of the bot working.`}
           view={`/chat-bot`}
         />
         <ProjectCard
           img={essay}
-          title={'Essay Site'}
+          title={"Essay Site"}
           description={`A site to display essays and link back to criteria or reference
-            points in the essay. Made using React and React Tabs and styled with
-            Tailwind CSS.`}
+            points in the essay. [username]: hello [password]: world`}
           view={`https://hannah-lynn.github.io/essay-site`}
           github={`https://github.com/hannah-lynn/essay-site`}
         />
