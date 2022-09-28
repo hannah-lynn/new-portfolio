@@ -13,7 +13,7 @@ function About() {
             developer role in October 2020.
           </p>
           <p className='mt-2'>
-            I enjoy building web apps in my spare time, where I build things,
+            I enjoy building web apps in my spare time, where I create things,
             like this website. I'm constantly looking for new things to learn
             and better ways to write my code, that's part of why I love coding.
           </p>
