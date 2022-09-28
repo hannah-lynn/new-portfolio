@@ -13,10 +13,9 @@ function About() {
             developer role in October 2020.
           </p>
           <p className='mt-2'>
-            Currently, I work frontend with Angular and Typescript. I enjoying
-            coding in my spare time, where I build things, like this website,
-            using React. I'm constantly looking for new things to learn and
-            better ways to write my code, that's part of why I love coding.
+            I enjoy building web apps in my spare time, where I build things,
+            like this website. I'm constantly looking for new things to learn
+            and better ways to write my code, that's part of why I love coding.
           </p>
           <p className='mt-2'>
             Previously, I worked as a Deputy Store Manager of a 60,000sq ft
@@ -26,7 +25,7 @@ function About() {
           </p>
         </div>
         <div className='text-left col-span-2 md:col-span-1'>
-          <p className='mt-2'>
+          <p>
             I'm always thinking of the customer journey - how to drive sales,
             footfall, reduce loss and also working together, leading a team to
             exceed targets.
